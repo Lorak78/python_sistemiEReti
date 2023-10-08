@@ -1,0 +1,1 @@
+#disegnare i poligoni da 3 a 11 in 1 schermata usare penup() e pendown()

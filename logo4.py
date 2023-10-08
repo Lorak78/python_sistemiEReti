@@ -1,0 +1,1 @@
+#chiedi in input un numero n e stampi una stella di n punti
