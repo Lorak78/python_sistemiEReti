@@ -1,4 +1,9 @@
+#corretta
 def main():
+    stringa = "elefante"
+    print(stringa[1::2])
+
+def main1():
     stringa = "ciao"
     for indice in range(len(stringa)):
         if indice % 2 != 0:

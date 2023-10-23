@@ -1,4 +1,11 @@
+#corretto:
 def main():
+    x = [0, 1, 2, 3, 5, 6, 7, 8]
+    mezzo = len(x) // 2 #// è la divisione intera
+
+    print(f"{x[:mezzo]} {x[mezzo:]}")
+
+def main1():
     x = [0, 1, 2, 3, 5, 6, 7, 8]
     meta1 = x[0:int(len(x)/2)]
     meta2 = x[int(len(x)/2):]
