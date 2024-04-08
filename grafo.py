@@ -3,8 +3,6 @@ def pretty_print(m, sep = "\t"):
         riga_str = [str(x) for x in riga]
         print(sep.join(riga_str))
 
-
-
 def mat2d_adiacenze(m):
     return {i: [j for j, n in enumerate(m[i]) if n] for i in range(len(m))}
 
