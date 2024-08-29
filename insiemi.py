@@ -1,0 +1,7 @@
+a = set([1, 2, 3])
+b = set([4, 5])
+print(a)
+print(b)
+print(a&b)
+b.remove(5)
+print(b)

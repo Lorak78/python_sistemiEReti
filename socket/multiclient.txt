@@ -1,0 +1,14 @@
+c'è un server udp
+3 client (ad esempio)
+
+il server deve stare in ascolto sempre
+appena riceve qualcosa, lo deve inoltrare (sendto)
+capisce a chi inoltrare il messaggio tramite ip address
+
+formato:
+messaggio = "ciao"
+pacchetto = f"{messaggio}|{ip_addr_dest}"
+
+il client deve essere multithread perchè deve poter
+sia mandare che ricevere
+tutti i client devono usare una porta comune (43211)
